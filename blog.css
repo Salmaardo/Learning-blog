@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.secondbox {
+  background-color: hsl(0, 0%, 100%);
+  width: 20%;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 1px solid black;
+  border-color:bold black;
+  padding: 20px;
+  box-shadow: 5px 5px 0px rgb(9, 8, 8);
+}
+
+.secondbox .image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 13px;
+}
+
+.secondbox span {
+  background-color: #F7DC6F; 
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 10px;
+  color: #333;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.published-date {
+  font-size: 10px;
+  color:Gray 500 hsl(0, 0%, 42%);
+  margin-top: 15px;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: bold;
+}
+
+.secondbox h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.secondbox .paragraph {
+  font-size: 12px;
+  color: Gray;
+  line-height: 1.5;
+  overflow: hidden;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 500,800;
+  font-style: normal;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.author-image {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0px;
+}
+
+.author-info .author-name {
+  font-size: 10px;
+  background-color: transparent;
+  font-family: "Figtree", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+@media only screen and (max-width: 375px) {
+  .main {
+    height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+  }
+
+  .secondbox {
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0px rgb(9, 8, 8);
+  }
+
+  .secondbox .image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 13px;
+  }
+
+  .secondbox span {
+    background-color: #F7DC6F;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #333;
+  }
+
+  .published-date {
+    font-size: 10px;
+    color: black ;
+    margin-top: 15px;
+  }
+
+  .secondbox h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  .secondbox .paragraph {
+    font-size: 12px;
+    color: Gray;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+
+  .author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .author-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .author-info .author-name {
+    font-size: 10px;
+    background-color: transparent;
+    font-weight: 800;
+  }
+}
+
+
+
+
+
+
